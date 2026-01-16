@@ -6,6 +6,10 @@
   border-top: 1px solid #1f1f1f;
 }
 
+a {
+  text-decoration: none;
+}
+
 .sobre-container {
   max-width: 1200px;
   margin: 0 auto;

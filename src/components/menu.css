@@ -89,7 +89,7 @@
 /* WHATSAPP FLUTUANTE */
 .whatsapp {
   position: fixed;
-  right: 16px;
+  right: 0px;
   transform: translateX(-30%);
   bottom: 16px;
   width: 56px;
