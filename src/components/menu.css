@@ -1,0 +1,132 @@
+.divmenu {
+  background-image: url('../assets/menu2.png');
+  min-height: 80vh;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+/* LOGO */
+.logo {
+  width: 180px;
+  margin: 20px auto 0;
+}
+
+/* TEXTO */
+.textoDiv {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.texto {
+  font-family: 'Lucida Sans', sans-serif;
+  color: #ffffff;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.textoPrincipal {
+  font-family: 'Bebas Neue', sans-serif;
+  color: #ffffff;
+  font-size: clamp(42px, 10vw, 80px);
+  margin: 10px 0;
+  text-transform: uppercase;
+}
+
+.terceiroTexto {
+  font-family: 'Lucida Sans', sans-serif;
+  color: #ffffff;
+  font-size: 14px;
+  max-width: 90%;
+  margin-bottom: 20px;
+}
+
+/* BOTÕES */
+.buttonExperimental {
+  background-color: #dbdbdbfd;
+  color: #000;
+  border: none;
+  padding: 14px 24px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: 0.3s;
+}
+
+.buttonExperimental:hover {
+  background-color: #1ebe5d;
+}
+
+/* BOTÃO WHATSAPP TOPO (DESKTOP) */
+.buttonzap {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-color: #dbdbdbfd;
+  color: #000;
+  border: none;
+  padding: 12px 20px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.buttonzap:hover {
+  background-color: #1ebe5d;
+}
+
+/* WHATSAPP FLUTUANTE */
+.whatsapp {
+  position: fixed;
+  right: 16px;
+  transform: translateX(-30%);
+  bottom: 16px;
+  width: 56px;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 26px;
+  color: #fff;
+  background-color: #20ac53;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  z-index: 999;
+}
+
+/* ================== MOBILE ================== */
+@media (max-width: 768px) {
+  .logo {
+    width: 150px;
+  }
+
+  .buttonzap {
+    position: static;
+    margin: 10px auto;
+  }
+
+  .texto {
+    font-size: 14px;
+  }
+
+  .terceiroTexto {
+    font-size: 13px;
+  }
+
+  .buttonExperimental {
+    width: 100%;
+    max-width: 300px;
+  }
+}

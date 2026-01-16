@@ -1,0 +1,43 @@
+.mapa-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 32px 0px;
+  
+}
+
+/* TÍTULO */
+.mapText {
+  font-family: 'Anton', sans-serif;
+  font-size: clamp(26px, 6vw, 44px);
+  font-weight: 400;
+  letter-spacing: 2px;
+  line-height: 1.1;
+  text-align: center;
+  margin: 40px 0 20px;
+  color: #111;
+  text-transform: uppercase;
+}
+
+.destaque {
+  color: #1ebe5d;
+}
+
+/* MAPA */
+.mapa-container iframe {
+  width: 100%;
+  height: 400px;
+  border: 0;
+  border-radius: 12px;
+}
+
+/* ================= MOBILE ================= */
+@media (max-width: 768px) {
+  .mapa-container {
+    padding: 32px 0px;
+  }
+
+  .mapa-container iframe {
+    height: 280px;
+  }
+}

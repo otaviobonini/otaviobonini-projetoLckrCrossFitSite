@@ -1,0 +1,90 @@
+.planos {
+  padding: 80px 16px;
+  background-color: #0f0f0f;
+  color: #f2f2f2;
+}
+
+.planos .container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.planos h2 {
+  text-align: center;
+  font-size: clamp(1.6rem, 5vw, 2.2rem);
+  margin-bottom: 50px;
+  font-family: 'Bebas Neue', sans-serif;
+  color: #f5f5f5;
+}
+
+.planos-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 24px;
+}
+
+/* CARD */
+.plano-card {
+  background-color: #1a1a1a;
+  padding: 28px 20px;
+  border-radius: 14px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.plano-card h3 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.3rem;
+  margin-bottom: 14px;
+  color: #f0f0f0;
+  text-transform: uppercase;
+}
+
+.plano-card p {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: #d1d1d1;
+  font-weight: 600;
+  margin-bottom: 24px;
+}
+
+/* DESTAQUE */
+.plano-card.destaque {
+  border: 2px solid #25d366;
+  transform: scale(1.02);
+}
+
+/* BOTÃO */
+.plano-card button {
+  padding: 12px 22px;
+  border: none;
+  border-radius: 25px;
+  background-color: #25d366;
+  color: #000;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* HOVER SÓ NO DESKTOP */
+@media (hover: hover) {
+  .plano-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+  }
+}
+
+/* ================= MOBILE ================= */
+@media (max-width: 768px) {
+  .planos {
+    padding: 60px 16px;
+  }
+
+  .plano-card {
+    padding: 24px 18px;
+  }
+
+  .plano-card p {
+    font-size: 0.9rem;
+  }
+}
