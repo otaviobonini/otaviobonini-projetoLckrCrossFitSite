@@ -37,7 +37,7 @@ function Sobre() {
             constância e evolução física e mental.
           </p>
 
-          <a href='https://api.whatsapp.com/send?phone=554898175758&text=Oii%2C%20vim%20pelo%20site%20e%20gostaria%20de%20saber%20mais%20sobre%20os%20planos%20da%20LCKR'><button className="sobre-btn">
+          <a href='#planos'><button className="sobre-btn">
             Conheça nossos planos
           </button></a>
         </div>
