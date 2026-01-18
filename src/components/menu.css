@@ -30,6 +30,7 @@
   font-family: 'Lucida Sans', sans-serif;
   color: #ffffff;
   font-size: 16px;
+  margin-bottom: -4px;
   text-transform: uppercase;
   font-weight: bold;
 }
@@ -38,7 +39,7 @@
   font-family: 'Bebas Neue', sans-serif;
   color: #ffffff;
   font-size: clamp(42px, 10vw, 80px);
-  margin: 10px 0;
+  margin: 10px 10px 20px;
   text-transform: uppercase;
 }
 
